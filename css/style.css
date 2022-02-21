@@ -15,6 +15,10 @@ body {
 .wrap {
     /*width: 1627px;*/
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
 
 }
 
@@ -418,4 +422,150 @@ body {
 }
 
 
+.pricing{
+    width: 1266px;
+    height: 616px;
+    font-family: 'Raleway', sans-serif;
+    /*background: #b1e8e8;*/
+    /*display: flex;*/
+    /*flex-direction: column;*/
 
+}
+
+.pricing-container{
+    display: flex;
+    flex-direction: column;
+}
+.pricing-title{
+    font-size: 36px;
+
+    margin: 80px 0 30px 0;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+
+}
+.pricing-options-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px
+}
+.pricing-options{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    list-style-type: none;
+    border-radius: 18px;
+    padding: 5px ;
+    margin: 30px 10px;
+    box-shadow: 5px 1px 27px rgba(7,172,230,.16);
+}
+.pricing-options1{
+    border: 1px solid #EB476E;
+    width: 372px;
+    height: 461px;
+}
+
+.pricing-options2{
+    border: 1px solid #07ACE6;
+    width: 405px;
+    height: 500px;
+}
+
+.pricing-options3{
+    border: 1px solid #55DFB4;
+    width: 372px;
+    height: 461px;
+}
+
+
+.pricing-box{
+
+}
+.box-header{
+
+}
+.box-title{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.box-price {
+    font-weight: 400;
+    font-size: 46px;
+    /*margin: 10px;*/
+}
+.box-price1{
+    color:#EB476E
+}
+.box-price2{
+color: #07ACE6
+}
+.box-price3{
+   color: #55DFB4
+}
+.box-offer{
+    height: 30px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.box-elements{
+
+}
+.box-element{
+    margin: 20px 0;
+    list-style-type: none;
+}
+
+.box-element:before {
+    background-image: url("../images/ckechmark-1.svg");
+    content: "";
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    margin-right: 15px;
+    background-repeat: no-repeat;
+}
+.box-element-not:before{
+    background-image: url("../images/close.svg");
+}
+.pricing-btn{
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    font-weight: 700;
+
+}
+
+.pricing-button{
+    width: 150px;
+    height: 50px;
+    border-radius: 23px;
+    background: yellowgreen;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+
+}
+.pricing-btn1{
+background: #EB476E;
+    bottom: -19px;
+
+}
+.pricing-btn2{
+background: #07ACE6;
+    width: 165px;
+    bottom: -38px;
+}
+.pricing-btn3{
+background: #55DFB4;
+    bottom: -19px;
+}
